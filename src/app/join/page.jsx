@@ -271,7 +271,7 @@ export default function JoinPage() {
                                     type="button"
                                     onClick={() => setFormData(prev => ({ ...prev, newsletter: option }))}
                                     className={`flex items-center gap-3 px-6 py-3 rounded-2xl border transition-all ${formData.newsletter === option
-                                        ? 'bg-[#0A2144] border-[#0A2144] text-white shadow-lg'
+                                        ? 'bg-[#8265AB] border-[#8265AB] text-white shadow-lg'
                                         : 'bg-[#F8F9FA] border-transparent text-[#0A2144] hover:bg-gray-100'
                                         }`}
                                 >

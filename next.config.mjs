@@ -20,7 +20,7 @@ const nextConfig = {
           {
             key: "Content-Security-Policy-Report-Only",
             value:
-              "default-src 'self'; script-src 'self'; connect-src 'self' https://tpmbackend.onrender.com; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; report-uri /csp-report;",
+              "default-src 'self'; script-src 'self'; connect-src 'self' https://tpmbackend.onrender.com https://tpmbackend-dev-arjunms.onrender.com; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; report-uri /csp-report;",
           },
           { key: "X-Frame-Options", value: "DENY" },
           { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
